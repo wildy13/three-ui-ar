@@ -1,6 +1,6 @@
 import slug from 'slug';
-import './css/main.css'
-import './css/tailwind.css'
+import '../css/main.css'
+import '../css/tailwind.css'
 
 export class SlideOver {
     constructor(options = {
