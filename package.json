@@ -1,6 +1,6 @@
 {
   "name": "three-ui-ar",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "UI for THREE JS",
   "main": "src/index.js",
   "keywords": [
