@@ -4,7 +4,7 @@
 
 ## Components
 
-### 1. [SlideOver](./src/slideOver.js)
+### 1. [SlideOver](https://github.com/wildy13/three-ui-ar/blob/master/src/slideOver.js)
 
 The core component of the package that manages the sliding panel functionality.
 
