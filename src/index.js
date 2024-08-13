@@ -1,5 +1,5 @@
 import './css/tailwind.css';
-import { SlideOver } from './sliderover';
+import { SlideOver } from './slideOver.js';
 
 
 export { SlideOver };
