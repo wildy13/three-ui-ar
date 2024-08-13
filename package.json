@@ -1,0 +1,22 @@
+{
+  "name": "three-ui-ar",
+  "version": "1.0.0",
+  "description": "UI for THREE JS",
+  "main": "src/index.js",
+  "keywords": [
+    "three.js",
+    "UI",
+    "ar"
+  ],
+  "author": "wildy13",
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "slug": "^9.1.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  }
+}
