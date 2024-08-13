@@ -39,19 +39,19 @@ To use `SlideOver` in your project, follow these steps:
    ```js
    import { SlideOver } from './path/to/slideOver.js';
 
-   slider.onButtonClick((id) => {
+   sliderover.onButtonClick((id) => {
       console.log(`Button clicked with ID: ${id}`);
    });
 
    // Menetapkan callback untuk submenu click
-   slider.onSubmenuClick((id) => {
+   sliderover.onSubmenuClick((id) => {
       console.log(`Submenu clicked with ID: ${id}`);
    });
    ```
 
    ### Update Components
    ```js
-   slider.updateOptions({
+   sliderover.updateOptions({
     body: {
         menu: [{
             name: 'Menu 1',
