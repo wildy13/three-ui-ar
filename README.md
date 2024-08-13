@@ -25,13 +25,52 @@ To use `SlideOver` in your project, follow these steps:
 
 1. **Add `SlideOver` to Your Project:**
 
-   Download the source file and include it in your project directory.
-
-2. **Include and Initialize `SlideOver`:**
-
+   ## For NUXT JS :
+   ### Basic Usage
    ```js
    import { SlideOver } from './path/to/slideOver.js';
 
-   document.addEventListener('DOMContentLoaded', () => {
-       const slider = new SlideOver();
+   onMounted(() => {
+      const sliderover = new SlideOver();   
    });
+   ```
+
+   ### Callback usage
+   ```js
+   import { SlideOver } from './path/to/slideOver.js';
+
+   slider.onButtonClick((id) => {
+      console.log(`Button clicked with ID: ${id}`);
+   });
+
+   // Menetapkan callback untuk submenu click
+   slider.onSubmenuClick((id) => {
+      console.log(`Submenu clicked with ID: ${id}`);
+   });
+   ```
+
+   ### Update Components
+   ```js
+   slider.updateOptions({
+    body: {
+        menu: [{
+            name: 'Menu 1',
+            submenu: [{
+                name: "Submenu 1"
+            },
+            {
+                name: "Submenu 2"
+            }]
+         },
+         {
+            name: 'Menu 2'
+         },
+         {
+            name: 'Menu 3'
+         }],
+      }
+   });
+
+   ```
+
+   
