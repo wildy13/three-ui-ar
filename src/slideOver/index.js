@@ -151,7 +151,7 @@ export class SlideOver {
         }
     }
 
-    updateOptions(newOptions) {
+    updateElements(newOptions) {
         this.options = { ...this.options, ...newOptions };
         this.createElements();
     }
