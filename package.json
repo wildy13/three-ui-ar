@@ -1,6 +1,6 @@
 {
   "name": "three-ui-ar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "UI for THREE JS",
   "main": "src/index.js",
   "keywords": [
@@ -8,6 +8,11 @@
     "UI",
     "ar"
   ],
+  "scripts": {
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "postcss src/styles/tailwind.css -o dist/tailwind.css",
+    "build:js": "rollup -c"
+  },
   "author": "wildy13",
   "license": "MIT",
   "files": [
