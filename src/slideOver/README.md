@@ -11,7 +11,7 @@ To use `SlideOver` in your project, follow these steps:
    ## For NUXT JS :
    ### Basic Usage
    ```js
-   import { SlideOver } from './path/to/slideOver.js';
+   import { SlideOver } from 'three-ui-ar';
 
    onMounted(() => {
       const sliderover = new SlideOver();   
@@ -20,7 +20,7 @@ To use `SlideOver` in your project, follow these steps:
 
    ### Callback usage
    ```js
-   import { SlideOver } from './path/to/slideOver.js';
+   import { SlideOver } from 'three-ui-ar';
 
    sliderover.onButtonClick((id) => {
       console.log(`Button clicked with ID: ${id}`);
@@ -62,7 +62,7 @@ To use `SlideOver` in your project, follow these steps:
       open: {
          id: 'open_button',
          name: 'open',
-         background: 'bg-blue-500' // tailwind css,
+         background: 'bg-blue-500', // tailwind css
          fontColor: 'text-slate-100'
       }, 
       close : {
