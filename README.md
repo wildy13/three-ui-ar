@@ -2,6 +2,17 @@
 
 `three-ui-ar` is a versatile JavaScript package designed to simplify the creation of user interfaces (UI) within augmented reality (AR) environments. By providing an easy-to-use API for managing sliding panels, menus, and interactive components, `ThreeUI` enables developers to integrate dynamic and responsive UI elements seamlessly into their AR experiences.
 
+## IMPORTANT
+```JS
+    const options = {
+        requiredFeatures: ['hit-test'],
+        optionalFeatures: ['dom-overlay', 'dom-overlay-for-handheld-ar'],
+        domOverlay: { root: document.body }
+    };
+    document.body.appendChild(ARButton.createButton(renderer, options));
+```
+
+
 ## Components
 
 ### 1. [SlideOver](https://github.com/wildy13/three-ui-ar/blob/master/src/slideOver/)
